@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D60C14BC-E1E0-420C-9C1F-AEAC3120576B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Pro73.My.MyApplication</StartupObject>
+    <RootNamespace>Pro73</RootNamespace>
+    <AssemblyName>Pro73</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Pro73.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Pro73.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAdd_Waiting_List.Designer.vb">
+      <DependentUpon>FormAdd_Waiting_List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdd_Waiting_List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddIn-Patients .Designer.vb">
+      <DependentUpon>FormAddIn-Patients .vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddIn-Patients .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddMedicalPatient.Designer.vb">
+      <DependentUpon>FormAddMedicalPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddMedicalPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPatientAppointment.Designer.vb">
+      <DependentUpon>FormAddPatientAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddPatientAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPatientRegistration.Designer.vb">
+      <DependentUpon>FormAddPatientRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddPatientRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPharmaceuticalSupplie.Designer.vb">
+      <DependentUpon>FormAddPharmaceuticalSupplie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddPharmaceuticalSupplie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddRequstion.Designer.vb">
+      <DependentUpon>FormAddRequstion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddRequstion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddstaff1.Designer.vb">
+      <DependentUpon>FormAddstaff1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddstaff1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddStaffAssingment.Designer.vb">
+      <DependentUpon>FormAddStaffAssingment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddStaffAssingment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddward.Designer.vb">
+      <DependentUpon>FormAddward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddward.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBed.Designer.vb">
+      <DependentUpon>FormBed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddbed.Designer.vb">
+      <DependentUpon>FormAddbed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddbed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditbed.Designer.vb">
+      <DependentUpon>FormEditbed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditbed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditPatientRegistration1.Designer.vb">
+      <DependentUpon>FormEditPatientRegistration1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditPatientRegistration1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditRequisition.Designer.vb">
+      <DependentUpon>FormEditRequisition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditRequisition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditward1.Designer.vb">
+      <DependentUpon>FormEditward1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditward1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIn-Patients .Designer.vb">
+      <DependentUpon>FormIn-Patients .vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormIn-Patients .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIn_Patients1.Designer.vb">
+      <DependentUpon>FormIn_Patients1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormIn_Patients1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMedicalPatient1.Designer.vb">
+      <DependentUpon>FormMedicalPatient1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMedicalPatient1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMedicalPatientSearch.Designer.vb">
+      <DependentUpon>FormMedicalPatientSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMedicalPatientSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPatientRegistration.Designer.vb">
+      <DependentUpon>FormPatientRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPatientRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditstaff.Designer.vb">
+      <DependentUpon>FormEditstaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditstaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHome.Designer.vb">
+      <DependentUpon>FormHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHome1.Designer.vb">
+      <DependentUpon>FormHome1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormHome1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMedical.Designer.vb">
+      <DependentUpon>FormMedical.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMedical.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPatient.Designer.vb">
+      <DependentUpon>FormPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPharmaceuticalSupplie.Designer.vb">
+      <DependentUpon>FormPharmaceuticalSupplie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPharmaceuticalSupplie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPharmaceuticalSupplie1.Designer.vb">
+      <DependentUpon>FormPharmaceuticalSupplie1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPharmaceuticalSupplie1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport.Designer.vb">
+      <DependentUpon>FormReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportStaff.Designer.vb">
+      <DependentUpon>FormReportStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRequisition.Designer.vb">
+      <DependentUpon>FormRequisition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRequisition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStaff.Designer.vb">
+      <DependentUpon>FormStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStaff1.Designer.vb">
+      <DependentUpon>FormStaff1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormStaff1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStaffAssingment.Designer.vb">
+      <DependentUpon>FormStaffAssingment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormStaffAssingment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWard.Designer.vb">
+      <DependentUpon>FormWard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormWard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromEditPatientAppointment1.Designer.vb">
+      <DependentUpon>FromEditPatientAppointment1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromEditPatientAppointment1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromEditPatientAppointment2.Designer.vb">
+      <DependentUpon>FromEditPatientAppointment2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromEditPatientAppointment2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromReportMedication.Designer.vb">
+      <DependentUpon>FromReportMedication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromReportMedication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromReportWardReport.Designer.vb">
+      <DependentUpon>FromReportWardReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromReportWardReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromstaffAssingmentEdit.Designer.vb">
+      <DependentUpon>FromstaffAssingmentEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromstaffAssingmentEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromWaitingList.Designer.vb">
+      <DependentUpon>FromWaitingList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromWaitingList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromWaitingList1.Designer.vb">
+      <DependentUpon>FromWaitingList1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FromWaitingList1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WellmeadowsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WellmeadowsDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormAdd_Waiting_List.resx">
+      <DependentUpon>FormAdd_Waiting_List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddIn-Patients .resx">
+      <DependentUpon>FormAddIn-Patients .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddMedicalPatient.resx">
+      <DependentUpon>FormAddMedicalPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddPatientAppointment.resx">
+      <DependentUpon>FormAddPatientAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddPatientRegistration.resx">
+      <DependentUpon>FormAddPatientRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddPharmaceuticalSupplie.resx">
+      <DependentUpon>FormAddPharmaceuticalSupplie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddRequstion.resx">
+      <DependentUpon>FormAddRequstion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddstaff1.resx">
+      <DependentUpon>FormAddstaff1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddStaffAssingment.resx">
+      <DependentUpon>FormAddStaffAssingment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddward.resx">
+      <DependentUpon>FormAddward.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBed.resx">
+      <DependentUpon>FormBed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddbed.resx">
+      <DependentUpon>FormAddbed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditbed.resx">
+      <DependentUpon>FormEditbed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditPatientRegistration1.resx">
+      <DependentUpon>FormEditPatientRegistration1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditRequisition.resx">
+      <DependentUpon>FormEditRequisition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditward1.resx">
+      <DependentUpon>FormEditward1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIn-Patients .resx">
+      <DependentUpon>FormIn-Patients .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIn_Patients1.resx">
+      <DependentUpon>FormIn_Patients1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMedicalPatient1.resx">
+      <DependentUpon>FormMedicalPatient1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMedicalPatientSearch.resx">
+      <DependentUpon>FormMedicalPatientSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPatientRegistration.resx">
+      <DependentUpon>FormPatientRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditstaff.resx">
+      <DependentUpon>FormEditstaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHome.resx">
+      <DependentUpon>FormHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHome1.resx">
+      <DependentUpon>FormHome1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMedical.resx">
+      <DependentUpon>FormMedical.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPatient.resx">
+      <DependentUpon>FormPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPharmaceuticalSupplie.resx">
+      <DependentUpon>FormPharmaceuticalSupplie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPharmaceuticalSupplie1.resx">
+      <DependentUpon>FormPharmaceuticalSupplie1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReport.resx">
+      <DependentUpon>FormReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportStaff.resx">
+      <DependentUpon>FormReportStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRequisition.resx">
+      <DependentUpon>FormRequisition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStaff.resx">
+      <DependentUpon>FormStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStaff1.resx">
+      <DependentUpon>FormStaff1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStaffAssingment.resx">
+      <DependentUpon>FormStaffAssingment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWard.resx">
+      <DependentUpon>FormWard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromEditPatientAppointment1.resx">
+      <DependentUpon>FromEditPatientAppointment1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromEditPatientAppointment2.resx">
+      <DependentUpon>FromEditPatientAppointment2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromReportMedication.resx">
+      <DependentUpon>FromReportMedication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromReportWardReport.resx">
+      <DependentUpon>FromReportWardReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromstaffAssingmentEdit.resx">
+      <DependentUpon>FromstaffAssingmentEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromWaitingList.resx">
+      <DependentUpon>FromWaitingList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromWaitingList1.resx">
+      <DependentUpon>FromWaitingList1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="WellmeadowsDataSet.xsc">
+      <DependentUpon>WellmeadowsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WellmeadowsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WellmeadowsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WellmeadowsDataSet.xss">
+      <DependentUpon>WellmeadowsDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\module3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT_Image_Jul_23_2025_10_32_06_PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT_Image_Jul_23_2025_10_32_06_PM1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Sep 8, 2025, 12_40_37 AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Sep 8, 2025, 12_40_37 AM %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Sep 8, 2025, 12_46_15 AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Sep 8, 2025, 12_46_15 AM %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Sep 8, 2025, 12_46_15 AM %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo731.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,726 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Pro73
+</name>
+</assembly>
+<members>
+<member name="T:Pro73.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.ChatGPT_Image_Jul_23_2025_10_32_06_PM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.ChatGPT_Image_Jul_23_2025_10_32_06_PM1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.ChatGPT_Image_Sep_8__2025__12_40_37_AM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.ChatGPT_Image_Sep_8__2025__12_40_37_AM__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.ChatGPT_Image_Sep_8__2025__12_46_15_AM">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.ChatGPT_Image_Sep_8__2025__12_46_15_AM__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.ChatGPT_Image_Sep_8__2025__12_46_15_AM__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.icons8_search_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.logo73">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.logo731">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Pro73.My.Resources.Resources.module3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.BedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ChargeNurseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ClinicDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.In_PatientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.LocalDoctorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.MedicationReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.NextOfKinDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientAppointmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientMedicationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Pharmaceutical_SupplieDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.QualificationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Requisition_ItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ShiftDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffAssignmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Waiting_ListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Ward_RequisitionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WardReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WeekDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WorkExperienceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_ChargeNurseWardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_InPatientStatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_PatientAppointmentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_PatientMedicationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_StaffDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_StaffScheduleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_WardRequisitionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.BedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ChargeNurseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ClinicRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.In_PatientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.LocalDoctorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.MedicationReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.NextOfKinRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientAppointmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientMedicationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Pharmaceutical_SupplieRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.QualificationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Requisition_ItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ShiftRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffAssignmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Waiting_ListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Ward_RequisitionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WardReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WeekRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WorkExperienceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_ChargeNurseWardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_InPatientStatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_PatientAppointmentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_PatientMedicationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_StaffDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_StaffScheduleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_WardRequisitionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.BedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ChargeNurseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ClinicRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.In_PatientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.LocalDoctorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.MedicationReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.NextOfKinRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientAppointmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.PatientMedicationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Pharmaceutical_SupplieRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.QualificationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Requisition_ItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.ShiftRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffAssignmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.StaffReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Waiting_ListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.Ward_RequisitionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WardReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WeekRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.WorkExperienceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_ChargeNurseWardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_InPatientStatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_PatientAppointmentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_PatientMedicationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_StaffDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_StaffScheduleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSet.vw_WardRequisitionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.BedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.ChargeNurseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.ClinicTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.In_PatientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.LocalDoctorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.MedicationReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.NextOfKinTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.PatientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.PatientAppointmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.PatientMedicationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.Pharmaceutical_SupplieTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.QualificationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.Requisition_ItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.ShiftTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.StaffAssignmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.StaffReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.Waiting_ListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.WardTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.Ward_RequisitionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.WardReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.WeekTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.WorkExperienceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.vw_ChargeNurseWardTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.vw_InPatientStatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.vw_PatientAppointmentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.vw_PatientMedicationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.vw_StaffDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.vw_StaffScheduleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.vw_WardRequisitionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Pro73.WellmeadowsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pro73.WellmeadowsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Pro73.WellmeadowsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pro73.WellmeadowsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Pro73.WellmeadowsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pro73.WellmeadowsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Pro73.WellmeadowsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Pro73.WellmeadowsDataSetTableAdapters.TableAdapterManager.UpdateAll(Pro73.WellmeadowsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Pro73.WellmeadowsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
