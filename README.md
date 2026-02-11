@@ -1,5 +1,5 @@
 # Project in Database Administration
-โปรเจกต์สำหรับรายวิชา Database Administration (ภาคการศึกษาที่ 2/2568)
+โปรเจกต์สำหรับรายวิชา Database Administration (ภาคการศึกษาที่ 1/2568)
 เครื่องมือที่ใช้ในการทำโปรเจค
 Visual Basic .NET (VB)
 Microsoft SQL Server
